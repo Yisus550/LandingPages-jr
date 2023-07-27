@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 :root {
-  --white: #ffff;
-  --black-primary: #000000;
+  --white:  var(--gray-primary)f;
+  --black-primary: #262626;
   --gray-primary: #dcdcdc;
   --blue-secondary: #1a245f;
   --yellow-secondary: #ffbf00;
@@ -12,7 +12,7 @@
 body {
     padding-top: 70px;
     background-color: var(--black-primary);
-	  color: var(--white);
+	  color: var(--gray-primary);
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 1.8 !important;
@@ -25,7 +25,7 @@ html {
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:200;
-	color: var(--gray-primary);
+	color: var(--yellow-secondary);
 }
 
 p{
@@ -87,11 +87,11 @@ a:hover,a:focus {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background-color: var(--black-primary);
-    color: var(--white);
+    color: var(--gray-primary);
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: var(--white);
+    color: var(--gray-primary);
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -111,7 +111,7 @@ a:hover,a:focus {
 .navbar-toggle {
     border: medium none;
     border-radius: 0;
-    color: #fff;
+    color: var(--gray-primary);
     cursor: pointer;
     height: 50px;
     padding: 16px;
@@ -123,18 +123,18 @@ a:hover,a:focus {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
+  background-color: var(--gray-primary);
 }
 
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #fff;
+    border-color: var(--gray-primary);
 }
 
 .navbar-toggle span {
 	width: 25px;
 	height: 3px;
 	margin-bottom: 5px;
-	background-color: #222;
+	background-color: var(--black-primary);
 	display: block;
 }
 .navbar-toggle span.bar1 {
@@ -193,7 +193,7 @@ a:hover,a:focus {
 
 .big-letter p:first-child:first-letter { 
 	float: left; 
-	color: #222; 
+	color: var(--yellow-secondary); 
 	font-size: 8em;  
 	line-height: 0.8em; 
 	text-transform: uppercase; 
@@ -231,7 +231,7 @@ a:hover,a:focus {
 /* Hover Effect */
 
 .hovereffect a:link,.hovereffect a:hover,.hovereffect a:focus,.hovereffect a:visited {
-	color:#fff;
+	color: var(--gray-primary);
 }
 
 .hovereffect {
@@ -257,7 +257,7 @@ a:hover,a:focus {
 }
 
 .hovereffect a, .hovereffect p,.hovereffect h2 {
-  color: #fff;
+  color:  var(--gray-primary);
   text-decoration:none;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -268,7 +268,7 @@ a:hover,a:focus {
 }
 
 .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-  color:#fff;
+  color: var(--gray-primary);
   text-decoration:none;
   opacity: 1;
   letter-spacing:1px;
@@ -374,7 +374,7 @@ a:hover,a:focus {
 /* Carousel Control*/
 
 .close {
-    color: #fff;
+    color:  var(--gray-primary);
     font-size: 50px;
     font-weight: lighter;
     opacity: 1;
@@ -386,7 +386,7 @@ a:hover,a:focus {
 }
 
 .close:hover, .close:focus {
-    color: #f7f7f7;
+    color: var(--blue-secondary);
 }
 
 .carousel-control.left, .carousel-control.right  {
