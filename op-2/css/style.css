@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
-/* :root {
-  --primary-color-one: light dark;
-  --primary-color-tow: #dcdcdc;
-  --secondary-color-one: #1a245f;
-  --secondary-color-tow: #ffbf00;
-} */
+:root {
+  --primary-color-one: white;
+  --primary-color-tow: black;
+  --secondary-color-one: #ffbf00;
+  --secondary-color-tow: #1a245f;
+}
 
 body {
     padding-top: 70px;
