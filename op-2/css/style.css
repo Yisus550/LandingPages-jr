@@ -54,7 +54,7 @@ a:hover,a:focus {
 /* Navbar */
 
 .navbar-fixed-top .nav {
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -99,6 +99,10 @@ a:hover,a:focus {
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: var(--secondary-color-tow);
+}
+
+.slider {
+  padding-top: 0;
 }
 
 
@@ -179,16 +183,6 @@ a:hover,a:focus {
 	transform: none;
 	width: 30px;
 }
-
-
-/* Intro */
-
-.intro {
-	font-size:22px;
-	padding-top:60px;
-	padding-bottom:25px;
-}
-
 
 
 /* About */
@@ -476,19 +470,12 @@ a:hover,a:focus {
 
 /* Footer */
 
-footer {
-	padding-bottom:85px;
-}
-
 footer p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:200;
 	font-size:0.7em;
 	text-transform:uppercase;
 }
-
-
-
 
 .cd-top {
   display: inline-block;
