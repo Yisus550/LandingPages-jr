@@ -389,7 +389,7 @@ a:hover,a:focus {
 }
 
 .close:hover, .close:focus {
-    color: var(--secondary-color-one);
+    color: var(--secondary-color-tow);
 }
 
 .carousel-control.left, .carousel-control.right  {
