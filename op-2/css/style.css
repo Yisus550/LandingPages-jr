@@ -50,6 +50,23 @@ a:hover,a:focus {
 	color: var(--secondary-color-tow);
 }
 
+input, textarea {
+  border: 0.800px solid lightgray;
+  padding: 13px 19px;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid gray;
+  outline: 0 none;
+  box-shadow: 0px 0px 10px lightgray;
+  transition: 0.3s;
+}
+
+button {
+  background-color: white;
+  border: 0.800px solid gray;
+}
+
 
 /* Navbar */
 
@@ -448,23 +465,55 @@ a:hover,a:focus {
 
 
 
-/* Brand */
+/* Contact */
 
-.logo-list img {
-	width:100%;
-	height:auto;
-	opacity:0.8;
+.contact-section p {
+  line-height:1.7em;
 }
 
-.logo-list li {
-	padding-bottom:1%;
+.contact-section h4 {
+	font-weight:bold;
+	letter-spacing:1px;
 }
 
-.logo-list li a:hover, 
-.logo-list li a:focus {
-  opacity: 0.6;
-  transition:  opacity 0.2s ease;
-  display: block;
+.contact{
+  display: flex;
+}
+
+.contact > form {
+  width: 60%;
+  height: 400px;
+}
+
+.contact > div {
+  width: 40%;
+  height: 400px;
+}
+
+.contact > div {
+  margin-left: 45px;
+}
+
+input[name='name-field'], input[name='email-field'], textarea[name='message-field'] {
+  width: 49.6%;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+textarea[name='message-field'] {
+  width: 100%;
+}
+
+#send-now-btn {
+  color: gray;
+  font-size: 22px;
+  padding: 10px 45px;
+}
+
+#send-now-btn:hover {
+  background-color: gray;
+  color: white;
+  transition: 0.3s;
 }
 
 
