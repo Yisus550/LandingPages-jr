@@ -61,8 +61,12 @@ a:hover,a:focus {
     padding: 0 15px;
 }
 
-.navbar-brand img{
-	max-height:50px;
+.navbar-header a {
+  height: 100%;
+}
+
+.navbar-header img{
+	height: 75px;
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
@@ -74,8 +78,8 @@ a:hover,a:focus {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 
-    .navbar-fixed-top .navbar-brand {
-        padding: 15px 0;
+    .navbar-fixed-top {
+        padding: 5px 0;
     }
 }
 
@@ -385,7 +389,7 @@ a:hover,a:focus {
 }
 
 .close:hover, .close:focus {
-    color: var(--secondary-color-one);
+    color: var(--secondary-color-tow);
 }
 
 .carousel-control.left, .carousel-control.right  {
@@ -537,10 +541,3 @@ footer p {
     bottom: 30px;
   }
 }
-
-/* [data-bs-theme="light"] {
-  --primary-color-one: white;
-  --primary-color-tow: black;
-  --secondary-color-one: #ffbf00;
-  --secondary-color-tow: #1a245f;
-} */

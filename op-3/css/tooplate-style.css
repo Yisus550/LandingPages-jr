@@ -35,6 +35,22 @@ p {
   cursor: pointer;
 }
 
+nav img {
+  height: 100px;
+}
+
+/* ? */
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+/* ? */
+
 #mainNav {
   background: white;
   padding: 5px 15px;
@@ -49,7 +65,7 @@ p {
 }
 
 .navbar {
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 button {
   cursor: pointer;
