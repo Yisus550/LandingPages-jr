@@ -202,6 +202,26 @@ button {
 }
 
 
+/* Start */
+
+
+.start > .row > div > img {
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.container > .row {
+  text-align: justify;
+}
+
+@media (max-width: 534px) {
+  .container > .row {
+    text-align: left;
+  }
+}
+
+
 /* About */
 
 
@@ -216,10 +236,11 @@ button {
 	padding-left: –0.03em;	
 }
 
-.about > .row > div > img {
-  width: 200px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+.about > div > div > img {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-top: 6em;
 }
 
 .float-r {
@@ -230,6 +251,14 @@ button {
 .float-l {
   float: left;
   margin-right: 100px;
+}
+
+@media (max-width: 991px) {
+  .float-l, .float-r {
+    float: none;
+    margin: 0;
+    transform: translateX(50%);
+  }
 }
 
 /* Firefox Fix */
@@ -477,6 +506,12 @@ button {
 	padding-top:20px;
 	font-weight:bold;
 	letter-spacing:1px;
+}
+
+.press > .container > .row > div > p > img {
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 
