@@ -216,6 +216,22 @@ button {
 	padding-left: –0.03em;	
 }
 
+.about > .row > div > img {
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.float-r {
+  float: right;
+  margin-left: 100px;
+}
+
+.float-l {
+  float: left;
+  margin-right: 100px;
+}
+
 /* Firefox Fix */
 
 @-moz-document url-prefix() {
@@ -607,10 +623,5 @@ footer p {
     height: 400px;
     margin: 0;
     margin-top: 40px;
-  }
-
-  .container-contact {
-    /* display: grid; */
-    
   }
 }
