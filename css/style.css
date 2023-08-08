@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.cdnfonts.com/css/garet);
 
 :root {
   --primary-color-one: white;
@@ -12,7 +13,7 @@ body {
     padding-top: 70px;
     background-color: var(--primary-color-one);
 	  color: var(--primary-color-tow);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Garet', sans-serif;
     font-size: 17px;
     line-height: 1.8 !important;
 }
@@ -22,13 +23,13 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight:200;
+	font-family: 'Garet', sans-serif;
+	font-weight: 200;
 	color: var(--secondary-color-tow);
 }
 
 p{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Garet', serif;
 	font-weight:300;
 }
 
@@ -575,7 +576,7 @@ textarea[name='message-field'] {
 /* Footer */
 
 footer p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Garet', sans-serif;
 	font-weight:200;
 	font-size:0.7em;
 	text-transform:uppercase;
