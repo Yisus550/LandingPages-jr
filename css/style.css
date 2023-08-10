@@ -284,7 +284,7 @@ nav > .container {
 	padding-left: –0.03em;	
 }
 
-.about > div > div > img {
+.about > article > div > img {
   width: 100%;
   display: grid;
   place-items: center;
@@ -301,8 +301,8 @@ nav > .container {
   margin-right: 100px;
 }
 
-@media (max-width: 991px) {
-  .about > div > div > img {
+@media (max-width: 992px) {
+  .about > article > div > img {
     margin: 0;
   }
 
@@ -310,6 +310,40 @@ nav > .container {
     float: none;
     margin: 0;
     transform: translateX(50%);
+  }
+}
+
+.philosophy {
+  margin-top: 70px;
+}
+
+.philosophy h2 {
+  padding-top: 50px;
+}
+
+.philosophy img {
+  width: 130px !important;
+}
+
+.m-l {
+  margin-left: 100px;
+}
+
+@media (max-width: 992px) {
+  .philosophy p {
+    padding-bottom: 50px;
+  }
+  .m-l {
+    margin-left: 0;
+  }
+  .philosophy h2 {
+    padding-top: 0;
+  }
+  .philosophy img {
+    float:left;
+    margin-right: 20px !important;
+    margin-bottom: 10px !important;
+    transform: translateX(-5%);
   }
 }
 
