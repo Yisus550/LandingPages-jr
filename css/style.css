@@ -608,6 +608,15 @@ nav > .container {
   margin-bottom: 25px;
 }
 
+.phrase-container {
+  margin: 110px 0;
+  padding-bottom: 110px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--secondary-color-tow);
+}
+
 
 
 /* Contact */
