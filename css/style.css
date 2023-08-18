@@ -104,6 +104,10 @@ nav > .container {
   transform: translateX(180%);
 }
 
+.second-ul {
+  font-size: 14px;
+}
+
 #main-menu {
   transform: translateX(10%);
 }
