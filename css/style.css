@@ -72,6 +72,10 @@ button {
 /* Navbar */
 
 
+nav {
+  border-bottom: 4px solid var(--secondary-color-one) !important;
+}
+
 .navbar-fixed-top .nav {
     padding: 20px 0;
 }
