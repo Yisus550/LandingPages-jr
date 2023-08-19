@@ -72,8 +72,19 @@ button {
 /* Navbar */
 
 
+.navbar-brand > img {
+  height: 250px;
+  width: auto;
+  position: fixed;
+  top: -5.3%;
+  left: -5%;
+}
+
 nav {
   border-bottom: 4px solid var(--secondary-color-one) !important;
+  box-shadow:  0px 0px 10px black;
+  /* -webkit-box-shadow:  0px 0px 10px black; */
+  
 }
 
 .navbar-fixed-top .nav {
@@ -86,10 +97,6 @@ nav {
 
 .navbar-header a {
   height: 100%;
-}
-
-.navbar-header img{
-	height: 75px;
 }
 
 nav > .container {
