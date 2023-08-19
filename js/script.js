@@ -8,6 +8,16 @@ $('.navbar-toggle').click(function(){
   }
  })
  
+if (window.innerWidth < 767) {
+	imageSrc = 'img/logo.png';
+}
+
+document.getElementById('img-navbar').src = imageSrc;
+	
+//  function cambiarImagenJS(){
+// 	document.getElementById("img-navbar").src="logo.png";
+//   }
+ 
  
 // Back to top Arrow
  

@@ -78,11 +78,13 @@ button {
   position: fixed;
   top: -5.3%;
   left: -5%;
+  /* filter: drop-shadow(0px 0px 10px black); */
+  padding-left: 5px;
 }
 
 nav {
   border-bottom: 4px solid var(--secondary-color-one) !important;
-  box-shadow:  0px 0px 10px black;
+  /* box-shadow:  0px 0px 10px black; */
   /* -webkit-box-shadow:  0px 0px 10px black; */
   
 }
@@ -112,7 +114,7 @@ nav > .container {
 }
 
 .first-ul {
-  transform: translateX(180%);
+  transform: translateX(170%);
 }
 
 .second-ul {
@@ -140,14 +142,22 @@ nav > .container {
   }
 
   #main-menu {
-    /* display: flex; */
-    transform: translateX(0%);
+    transform: translateX(15%);
   }
 }
 
 @media (max-width: 767px) {
   .first-ul {
     transform: translateX(0%);
+  }
+  .navbar-brand > img {
+    height: 70px;
+    position: relative;
+  }
+  nav > .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 20px;
   }
 }
 
@@ -169,20 +179,8 @@ nav > .container {
     color: var(--secondary-color-tow);
 }
 
-.second-ul {
-
-}
-
 .slider {
   padding-top: 0;
-}
-
-@media (max-width: 767px) {
-  nav > .container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 0 20px;
-  }
 }
 
 
