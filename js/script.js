@@ -13,10 +13,6 @@ if (window.innerWidth < 767) {
 }
 
 document.getElementById('img-navbar').src = imageSrc;
-	
-//  function cambiarImagenJS(){
-// 	document.getElementById("img-navbar").src="logo.png";
-//   }
  
  
 // Back to top Arrow
