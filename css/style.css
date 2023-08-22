@@ -76,7 +76,7 @@ button {
   height: 230px;
   width: auto;
   position: fixed;
-  top: -3.5%;
+  top: -2.5rem;
 }
 
 nav {
@@ -100,8 +100,6 @@ nav {
 
 .collapse {
   width: 67%;
-  display: flex;
-  justify-content: center;
 }
 
 .first-ul {
@@ -110,20 +108,12 @@ nav {
   justify-content: center;
 }
 
-.second-ul {
-  width: 67%;
-  display: flex;
-  justify-content: center;
-  font-size: 14px;
-}
-
 .navbar-header a {
-  /* height: 100%; */
+  height: 100%;
 }
 
 nav > .container {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -139,40 +129,56 @@ nav > .container {
   .navbar-fixed-top {
     padding: 5px 0;
   }
+
+  .second-ul {
+    width: 67%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
 }
 
-@media (max-width: 1244px) {
-  .first-ul {
-    /* display: flex;
-    transform: translateX(80%); */
+@media (max-width: 1199px) {
+  .navbar-brand > img {
+    height: 90px;
+    position: none;
+    top: 1rem;
+  }
+  
+  .navbar-header {
+    width: 17%;
+  }
+  
+  .collapse {
+    width: 83%;
   }
 
-  .collapse {
-    /* transform: translateX(15%); */
+  .first-ul {
+    width: 20%;
+  }
+
+  .second-ul {
+    width: 80%;
   }
 }
 
 @media (max-width: 767px) {
-  nav, .container {
-    height: 100;
-  }
-  .navbar-header {
+  .navbar-header, .collapse {
     width: auto;
-  }
-  .collapse {
-    width: auto;
-    display:none;
   }
   .first-ul {
-    /* transform: translateX(0%); */
+    width: 0%;
+    display: grid;
+    margin: 0 20px;
   }
   .navbar-brand > img {
     height: 70px;
     position: relative;
+    top: 0;
   }
   nav > .container {
+    height: 100;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     padding: 0 20px;
   }
 }
