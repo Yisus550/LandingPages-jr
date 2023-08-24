@@ -168,8 +168,11 @@ nav > .container {
   }
   .first-ul {
     width: 0%;
-    display: grid;
-    margin: 0 20px;
+    display: flex;
+    margin-left: 45px;
+  }
+  .second-ul {
+    margin-bottom: 20px;
   }
   .navbar-brand > img {
     height: 70px;
