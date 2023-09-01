@@ -72,18 +72,17 @@ button {
 /* Navbar */
 
 
-.navbar-brand > img {
-  height: 230px;
-  width: auto;
-  position: fixed;
-  top: -2.5rem;
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid var(--secondary-color-one) !important;
+  box-shadow:  0px 0px 10px black;
 }
 
-nav {
-  border-bottom: 4px solid var(--secondary-color-one) !important;
-  /* box-shadow:  0px 0px 10px black; */
-  /* -webkit-box-shadow:  0px 0px 10px black; */
-  
+.navbar-brand > img {
+  height: 90px;
+  width: auto;
 }
 
 .navbar-fixed-top .nav {
@@ -94,13 +93,17 @@ nav {
   padding: 0px;
 }
 
-.navbar-header {
-  width: 33%;
+nav > .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "col1 col2 col2 col2";
 }
 
-.collapse {
-  width: 67%;
+.navbar-header { 
+  padding-top: 7px;
+  grid-area: col1;
 }
+.collapse { grid-area: col2; }
 
 .first-ul {
   width: 33%;
@@ -110,11 +113,6 @@ nav {
 
 .navbar-header a {
   height: 100%;
-}
-
-nav > .container {
-  display: flex;
-  align-items: center;
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
@@ -134,55 +132,31 @@ nav > .container {
     width: 67%;
     display: flex;
     justify-content: center;
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 1199px) {
-  .navbar-brand > img {
-    height: 90px;
-    position: none;
-    top: 1rem;
-  }
-  
-  .navbar-header {
-    width: 17%;
-  }
-  
-  .collapse {
-    width: 83%;
-  }
-
-  .first-ul {
-    width: 20%;
-  }
-
-  .second-ul {
-    width: 80%;
+    font-size: 15px;
   }
 }
 
 @media (max-width: 767px) {
+  nav {
+    height: auto;
+    display: block;
+  }
+  nav > .container {
+    grid-template-columns: auto;
+    grid-template-areas: none;
+  }
+  .navbar-header {
+    padding: 0;
+  }
   .navbar-header, .collapse {
+    display: auto;
     width: auto;
-  }
-  .first-ul {
-    width: 0%;
-    display: flex;
-    margin-left: 45px;
-  }
-  .second-ul {
-    margin-bottom: 20px;
+    grid-area:auto;
   }
   .navbar-brand > img {
     height: 70px;
     position: relative;
     top: 0;
-  }
-  nav > .container {
-    height: 100;
-    display: grid;
-    padding: 0 20px;
   }
 }
 
