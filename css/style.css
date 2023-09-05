@@ -132,12 +132,9 @@ nav > .container {
     width: 67%;
     display: flex;
     justify-content: center;
+    transform: translateY(7px);
     /* font-size: 19px; */
   }
-}
-
-@media (max-width: 768px) {
-  
 }
 
 @media (max-width: 767px) {
