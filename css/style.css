@@ -108,7 +108,8 @@ nav > .container {
 .first-ul {
   width: 33%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
+  font-size: 19px;
 }
 
 .navbar-header a {
@@ -133,7 +134,7 @@ nav > .container {
     display: flex;
     justify-content: center;
     transform: translateY(7px);
-    /* font-size: 19px; */
+    font-size: 19px;
   }
 }
 
