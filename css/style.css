@@ -662,6 +662,7 @@ input[name='name'], input[name='email'] {
 
 textarea[name='message'] {
   width: 100%;
+  resize: none;
 }
 
 #send-now-btn {
