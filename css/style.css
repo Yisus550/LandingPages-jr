@@ -83,6 +83,7 @@ nav {
 .navbar-brand > img {
   height: 90px;
   width: auto;
+  margin-bottom: 10px;
 }
 
 .navbar-fixed-top .nav {
@@ -138,7 +139,7 @@ nav > .container {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   nav {
     height: auto;
     display: block;
@@ -156,7 +157,8 @@ nav > .container {
     grid-area:auto;
   }
   .navbar-brand > img {
-    height: 70px;
+    width: 100px;
+    height: auto;
     position: relative;
     top: 0;
   }
@@ -502,12 +504,12 @@ nav > .container {
 
 /* Thumbnail Images*/
 
-.photo-1 {background-image: url('../img/1.jpg');}
-.photo-2 {background-image: url('../img/2.jpg');}
-.photo-3 {background-image: url('../img/3.jpg');}
-.photo-4 {background-image: url('../img/4.jpg');}
-.photo-5 {background-image: url('../img/5.jpg');}
-.photo-6 {background-image: url('../img/6.jpg');}
+.photo-1 {background-image: url('../img/w.webp');}
+.photo-2 {background-image: url('../img/1.webp');}
+.photo-3 {background-image: url('../img/8.webp');}
+.photo-4 {background-image: url('../img/12º.webp');}
+.photo-5 {background-image: url('../img/1.jpg');}
+.photo-6 {background-image: url('../img/w.webp');}
 
 /* Modal Box */
 
