@@ -157,10 +157,21 @@ nav > .container {
     grid-area:auto;
   }
   .navbar-brand > img {
-    width: 100px;
+    width: 80px;
     height: auto;
     position: relative;
     top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .second-ul {
+    width: 60%;
+    font-size: 17px;
+  }
+  .navbar-brand img {
+    height: 90px;
+    width: auto;
   }
 }
 
