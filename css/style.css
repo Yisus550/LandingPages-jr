@@ -121,6 +121,16 @@ nav > .container {
     margin-left: 0px;
 }
 
+@media (width: 768px) {
+  .navbar-brand {
+    position: fixed;
+    top: 3vw;
+  }
+  .second-ul {
+    width: 40% !important;
+  }
+}
+
 @media(min-width:768px) {
   body {
     padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -156,9 +166,9 @@ nav > .container {
     width: auto;
     grid-area:auto;
   }
-  .navbar-brand > img {
-    width: 80px;
-    height: auto;
+  .navbar-brand img {
+    width: auto !important;
+    height: 50px !important;
     position: relative;
     top: 0;
   }
